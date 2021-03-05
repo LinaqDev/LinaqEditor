@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinaqEditor", "LinaqEditor\LinaqEditor.csproj", "{1167E00D-C515-45D5-978C-1A3FBC2A1200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinaqEdit", "LinaqEdit\LinaqEdit.csproj", "{6A0D4963-1BCE-4B6D-8DDA-1727C6F1982D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1167E00D-C515-45D5-978C-1A3FBC2A1200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1167E00D-C515-45D5-978C-1A3FBC2A1200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1167E00D-C515-45D5-978C-1A3FBC2A1200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1167E00D-C515-45D5-978C-1A3FBC2A1200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0D4963-1BCE-4B6D-8DDA-1727C6F1982D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0D4963-1BCE-4B6D-8DDA-1727C6F1982D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0D4963-1BCE-4B6D-8DDA-1727C6F1982D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0D4963-1BCE-4B6D-8DDA-1727C6F1982D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E96D2EA-A04D-4258-B041-C659351C3F5B}
+	EndGlobalSection
+EndGlobal

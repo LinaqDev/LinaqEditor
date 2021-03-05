@@ -1,0 +1,32 @@
+﻿<Application x:Class="LinaqEdit.App"
+             xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LinaqEdit"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Grey.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+                <ResourceDictionary Source="WindowStyle/WindowStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="{x:Type toolkit:MessageBox}">
+                <Setter Property="Background" Value="{DynamicResource PrimaryHueMidBrush}" />
+                <Setter Property="BorderBrush" Value="{DynamicResource PrimaryHueMidForegroundBrush}" />
+                <Setter Property="Caption" Value="{DynamicResource PrimaryHueMidBrush}" />
+                <Setter Property="CaptionForeground" Value="{StaticResource WindowForeColor}" />
+                <!--<Setter Property="CaptionIcon" Value="/LinaqEditor;component/linaqicon256x256_Aqb_icon.ico" />-->
+                <Setter Property="ButtonRegionBackground" Value="WhiteSmoke" />
+                <Setter Property="WindowBorderBrush" Value="{DynamicResource PrimaryHueMidForegroundBrush}" />
+                <Setter Property="WindowBackground" Value="{DynamicResource PrimaryHueMidBrush}" />
+                <Setter Property="WindowOpacity" Value="0.7" />
+                <Setter Property="Foreground" Value="{StaticResource WindowForeColor}"/>
+                <Setter Property="CloseButtonStyle" Value="{StaticResource WindowButton}"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
